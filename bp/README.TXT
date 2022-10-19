@@ -1,6 +1,6 @@
 Cda's Copper Add-on brings blocks from the 20w45a snapshot over to Bedrock Edition
 
-This pack requires you to be in the betas
+You must enable "Holiday Creator Features" and "Creation of Custom Biomes" in the experimental gameplay for the pack to work
 
 IDs/PNGs explained:
 ci - Copper Ingot
@@ -19,13 +19,35 @@ wcc - Weathered Cut Copper
 ("w" will be found before "sl" or "st")
 ("d" before id - Double)
 (If is a waxed regular block, there is no "b")
+("u" at the end - Upper, only stairs and slabs)
+("n/e/s/w", north, east, south, west, found before "u", only for stairs)
+
+Known Issues:
+- Stair textures are off
+- Way too many block files
+	The stairs require 8 blocks per a single block, and the slabs require 2. There is currently no way to hide blocks from the /give menu
+- Stair collision is a solid block
+	There is currently no way for non-rectangular hitboxes
+- Mining does not use durability
+- Anything will mine the block in a second
+	Mining without the proper tools will still result in it not dropping, but everything will mine it in a second. Better tools cannot mine it in less
+- Pick block doesn't work for some stairs/slabs
+	As each stair and slab need multiple blocks, the pick block will only work for certain varients, eg, north facing stair, lower slab
+- Shadows
 
 Do not redistribute. Link all pack downloads back to https://sites.google.com/view/cda94581/downloads/packs/behavior-packsaddons
 
 Changelog
+v1.0.0 - 11/24/2020 (MM/DD/YYYY)
+Added Cut Copper Stairs and weathered variants
+	Stair textures are currently off a bit
+Added Cut Copper Slabs and weathered variants
+Distributed as Cda's Copper v1.0.0
+---
 v0.0.3 - 11/12/2020 (MM/DD/YYYY)
 Updated changelog format to include date, added credits
 Copper Ingot texture will now load
+Distributed as Cda's Copper v0.0.3
 ---
 v0.0.2 - 11/11/2020 (MM/DD/YYYY)
 Updated to coincide with the Java Edition 20w46a snapshot
@@ -51,4 +73,5 @@ Distributed as Cda's Copper v0.0.1
 
 Credits:
 Thanks to https://bedrock.dev for it's documentation on add-on making
-Thanks to Exploration Craft (https://mcpedl.com/exploration-craft-addon/) and Concrete Slabs (https://mcpedl.com/concrete-slabs-addon/) for providing examples so as to complete the pack
+Thanks to Exploration Craft (https://mcpedl.com/exploration-craft-addon/) and Concrete Slabs (https://mcpedl.com/concrete-slabs-addon/) for providing examples and pre-made block models so as to complete the pack
+Thanks to the bedrock.dev Discord for the help and knowledge provided in making this add-on

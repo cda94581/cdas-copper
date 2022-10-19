@@ -1,0 +1,89 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cdacopper:lwccst"
+		},
+		"components": {
+			"minecraft:destroy_time": 1.0,
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:on_player_destroyed": {
+				"condition": "query.get_equipped_item_name == 'stone_pickaxe' || query.get_equipped_item_name == 'iron_pickaxe' || query.get_equipped_item_name == 'diamond_pickaxe' || query.get_equipped_item_name == 'netherite_pickaxe'",
+				"event": "drop"
+			},
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "weather"
+				}
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cdacopper_lwcc",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": "geometry.cdacopper_stair",
+			"minecraft:on_player_placing": {
+				"event": "direction"
+			}
+		},
+		"events": {
+			"drop": {
+				"spawn_loot": {
+					"table": "loot_tables/blocks/cdacopper/reg/lwccst.json"
+				}
+			},
+			"weather": {
+				"set_block": {
+					"block_type": "cdacopper:swccst"
+				}
+			},
+			"direction": {
+				"sequence": [
+					{
+						"condition": "query.target_x_rotation > 0 && query.cardinal_player_facing == 3.0",
+						"set_block": {
+							"block_type": "cdacopper:lwccsts"
+						}
+					},
+					{
+						"condition": "query.target_x_rotation > 0 && query.cardinal_player_facing == 4.0",
+						"set_block": {
+							"block_type": "cdacopper:lwccstw"
+						}
+					},
+					{
+						"condition": "query.target_x_rotation > 0 && query.cardinal_player_facing == 5.0",
+						"set_block": {
+							"block_type": "cdacopper:lwccste"
+						}
+					},
+					{
+						"condition": "query.target_x_rotation <= 0 && query.cardinal_player_facing == 2.0",
+						"set_block": {
+							"block_type": "cdacopper:lwccstnu"
+						}
+					},
+					{
+						"condition": "query.target_x_rotation <= 0 && query.cardinal_player_facing == 3.0",
+						"set_block": {
+							"block_type": "cdacopper:lwccstsu"
+						}
+					},
+					{
+						"condition": "query.target_x_rotation <= 0 && query.cardinal_player_facing == 4.0",
+						"set_block": {
+							"block_type": "cdacopper:lwccstwu"
+						}
+					},
+					{
+						"condition": "query.target_x_rotation <= 0 && query.cardinal_player_facing == 5.0",
+						"set_block": {
+							"block_type": "cdacopper:lwccsteu"
+						}
+					}
+				]
+			}
+		}
+	}
+}

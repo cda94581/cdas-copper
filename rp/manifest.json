@@ -1,13 +1,13 @@
 {
 	"format_version": 2,
 	"header": {
-		"description": "Copper from the Java Edition 20w45a snapshot, ported to Bedrock Edition by cda94581, WIP",
-		"name": "Cda's Copper RP v0.0.3",
+		"description": "Copper from the Java Edition 20w45a snapshot, ported to Bedrock Edition by cda94581",
+		"name": "Cda's Copper RP v1.0.0",
 		"uuid": "d0b84c70-8eda-464c-9083-3d91eb86ea27",
 		"version": [
+			1,
 			0,
-			0,
-			3
+			0
 		],
 		"min_engine_version": [
 			1,
@@ -17,13 +17,13 @@
 	},
 	"modules": [
 		{
-			"description": "Copper from the Java Edition 20w45a snapshot, ported to Bedrock Edition by cda94581, WIP",
+			"description": "Copper from the Java Edition 20w45a snapshot, ported to Bedrock Edition by cda94581",
 			"type": "resources",
 			"uuid": "e5314c35-c306-4ede-88ad-230dae6cd171",
 			"version": [
+				1,
 				0,
-				0,
-				3
+				0
 			]
 		}
 	]

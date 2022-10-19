@@ -1,0 +1,25 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cdacopper:ccst"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#  ",
+			"## ",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "cdacopper:cc"
+			}
+		},
+		"result": {
+			"item": "cdacopper:ccst",
+			"count": 4
+		}
+	}
+}
