@@ -1,0 +1,34 @@
+item.cdacopper:ci.name=Copper Ingot
+
+tile.cdacopper:cb.name=Copper Block
+tile.cdacopper:cc.name=Cut Copper
+tile.cdacopper:co.name=Copper Ore
+tile.cdacopper:lwcb.name=Lightly Weathered Copper Block
+tile.cdacopper:lwcc.name=Lightly Weathered Cut Copper
+tile.cdacopper:swcb.name=Semi-Weathered Copper Block
+tile.cdacopper:swcc.name=Semi-Weathered Cut Copper
+tile.cdacopper:wcb.name=Weathered Copper Block
+tile.cdacopper:wcc.name=Weathered Cut Copper
+
+tile.cdacopper:cw.name=Waxed Copper
+tile.cdacopper:ccw.name=Waxed Cut Copper
+tile.cdacopper:lwcw.name=Waxed Lightly Weathered Copper
+tile.cdacopper:lwccw.name=Waxed Lightly Weathered Cut Copper
+tile.cdacopper:swcw.name=Waxed Semi-Weathered Copper
+tile.cdacopper:swccw.name=Waxed Semi-Weathered Cut Copper
+
+tile.cdacopper:ccsl.name=Cut Copper Slab
+tile.cdacopper:lwccsl.name=Lightly Weathered Cut Copper Slab
+tile.cdacopper:swccsl.name-Semi-Weathered Cut Copper Slab
+tile.cdacopper:wccsl.name=Weathered Cut Copper Slab
+tile.cdacopper:ccwsl.name=Waxed Cut Copper Slab
+tile.cdacopper:lwccwsl.name=Waxed Lightly Weathered Cut Copper Slab
+tile.cdacopper:swccwsl.name=Waxed Semi-Weathered Cut Copper Slab
+
+tile.cdacopper:ccst.name=Cut Copper Stairs
+tile.cdacopper:lwccst.name=Lightly Weathered Cut Copper Stairs
+tile.cdacopper:swccst.name=Semi-Weathered Cut Copper Stairs
+tile.cdacopper:wccst.name=Weathered Cut Copper Stairs
+tile.cdacopper:ccwst.name=Waxed Cut Copper Stairs
+tile.cdacopper:lwccwst.name=Waxed Lightly Weathered Cut Copper Stairs
+tile.cdacopper:swccwst.name=Waxed Semi-Weathered Cut Copper Stairs
