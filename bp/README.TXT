@@ -34,6 +34,7 @@ Known Issues:
 - Pick block doesn't work for some stairs/slabs
 	As each stair and slab need multiple blocks, the pick block will only work for certain varients, eg, north facing stair, lower slab
 - Shadows
+	Appears to be much better after 1.16.200
 
 Do not redistribute. Link all pack downloads back to https://sites.google.com/view/cda94581/downloads/packs/behavior-packsaddons
 
@@ -41,6 +42,8 @@ Changelog
 v1.0.1 - 12/11/2020 (MM/DD/YYYY)
 Updated with new 1.16.200 features to be a bit more optimized
 Updated manifest descriptions with a bit more branding
+Distributed as Cda's Copper v1.0.1
+---
 v1.0.0 - 11/24/2020 (MM/DD/YYYY)
 Added Cut Copper Stairs and weathered variants
 	Stair textures are currently off a bit
@@ -65,16 +68,16 @@ Added Copper Ore
 Added Copper Ore Generation
 Added Copper Ingot
 Added Copper Block
-Added Copper Block Weathered Varients
-Added Waxed Copper Block and Varients
+Added Copper Block Weathered Variants
+Added Waxed Copper Block and Variants
 Added Cut Copper
-Added Cut Copper Weathered Varients
-Added Waxed Cut Copper and Varients
+Added Cut Copper Weathered Variants
+Added Waxed Cut Copper and Variants
 Added recipes
 Added extra files for the purpose of future updates
 Distributed as Cda's Copper v0.0.1
 
 Credits:
-Thanks to https://bedrock.dev for it's documentation on add-on making
+Thanks to https://bedrock.dev for its documentation on add-on making
 Thanks to Exploration Craft (https://mcpedl.com/exploration-craft-addon/) and Concrete Slabs (https://mcpedl.com/concrete-slabs-addon/) for providing examples and pre-made block models so as to complete the pack
 Thanks to the bedrock.dev Discord for the help and knowledge provided in making this add-on
