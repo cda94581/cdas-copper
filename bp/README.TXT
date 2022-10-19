@@ -38,6 +38,9 @@ Known Issues:
 Do not redistribute. Link all pack downloads back to https://sites.google.com/view/cda94581/downloads/packs/behavior-packsaddons
 
 Changelog
+v1.0.1 - 12/11/2020 (MM/DD/YYYY)
+Updated with new 1.16.200 features to be a bit more optimized
+Updated manifest descriptions with a bit more branding
 v1.0.0 - 11/24/2020 (MM/DD/YYYY)
 Added Cut Copper Stairs and weathered variants
 	Stair textures are currently off a bit

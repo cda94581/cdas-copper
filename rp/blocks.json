@@ -48,47 +48,5 @@
 	},
 	"cdacopper:swccw": {
 		"textures": "cdacopper_swcc"
-	},
-	"cdacopper:ccsl": {
-		"textures": "cdacopper_cc"
-	},
-	"cdacopper:lwccsl": {
-		"textures": "cdacopper_lwcc"
-	},
-	"cdacopper:swccsl": {
-		"textures": "cdacopper_swcc"
-	},
-	"cdacopper:wccsl": {
-		"textures": "cdacopper_wcc"
-	},
-	"cdacopper:ccwsl": {
-		"textures": "cdacopper_cc"
-	},
-	"cdacopper:lwccwsl": {
-		"textures": "cdacopper_lwcc"
-	},
-	"cdacopper:swccwsl": {
-		"textures": "cdacopper_swcc"
-	},
-	"cdacopper:ccst": {
-		"textures": "cdacopper_cc"
-	},
-	"cdacopper:lwccst": {
-		"textures": "cdacopper_lwcc"
-	},
-	"cdacopper:swccst": {
-		"textures": "cdacopper_swcc"
-	},
-	"cdacopper:wccst": {
-		"textures": "cdacopper_wcc"
-	},
-	"cdacopper:ccwst": {
-		"textures": "cdacopper_cc"
-	},
-	"cdacopper:lwccwst": {
-		"textures": "cdacopper_lwcc"
-	},
-	"cdacopper:swccwst": {
-		"textures": "cdacopper_swcc"
 	}
 }

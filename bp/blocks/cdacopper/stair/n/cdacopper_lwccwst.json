@@ -31,43 +31,43 @@
 			"direction": {
 				"sequence": [
 					{
-						"condition": "query.target_x_rotation > 0 && query.cardinal_player_facing == 3.0",
+						"condition": "query.target_x_rotation > 0 && query.cardinal_facing_2d == 3.0",
 						"set_block": {
 							"block_type": "cdacopper:lwccwsts"
 						}
 					},
 					{
-						"condition": "query.target_x_rotation > 0 && query.cardinal_player_facing == 4.0",
+						"condition": "query.target_x_rotation > 0 && query.cardinal_facing_2d == 4.0",
 						"set_block": {
 							"block_type": "cdacopper:lwccwstw"
 						}
 					},
 					{
-						"condition": "query.target_x_rotation > 0 && query.cardinal_player_facing == 5.0",
+						"condition": "query.target_x_rotation > 0 && query.cardinal_facing_2d == 5.0",
 						"set_block": {
 							"block_type": "cdacopper:lwccwste"
 						}
 					},
 					{
-						"condition": "query.target_x_rotation <= 0 && query.cardinal_player_facing == 2.0",
+						"condition": "query.target_x_rotation <= 0 && query.cardinal_facing_2d == 2.0",
 						"set_block": {
 							"block_type": "cdacopper:lwccwstnu"
 						}
 					},
 					{
-						"condition": "query.target_x_rotation <= 0 && query.cardinal_player_facing == 3.0",
+						"condition": "query.target_x_rotation <= 0 && query.cardinal_facing_2d == 3.0",
 						"set_block": {
 							"block_type": "cdacopper:lwccwstsu"
 						}
 					},
 					{
-						"condition": "query.target_x_rotation <= 0 && query.cardinal_player_facing == 4.0",
+						"condition": "query.target_x_rotation <= 0 && query.cardinal_facing_2d == 4.0",
 						"set_block": {
 							"block_type": "cdacopper:lwccwstwu"
 						}
 					},
 					{
-						"condition": "query.target_x_rotation <= 0 && query.cardinal_player_facing == 5.0",
+						"condition": "query.target_x_rotation <= 0 && query.cardinal_facing_2d == 5.0",
 						"set_block": {
 							"block_type": "cdacopper:lwccwsteu"
 						}
