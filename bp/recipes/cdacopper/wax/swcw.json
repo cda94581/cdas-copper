@@ -1,0 +1,22 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cdacopper:swcw"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "cdacopper:swcb"
+			},
+			{
+				"item": "minecraft:honeycomb"
+			}
+		],
+		"result": {
+			"item": "cdacopper:swcw"
+		}
+	}
+}

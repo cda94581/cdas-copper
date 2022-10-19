@@ -1,0 +1,40 @@
+{
+	"format_version": 2,
+	"header": {
+		"description": "Copper from the Java Edition 20w45a snapshot, ported to Bedrock Edition by cda94581, WIP",
+		"name": "Cda's Copper BP v0.0.1",
+		"uuid": "bda96cc0-718a-4343-bb25-5c6c94e13f50",
+		"version": [
+			0,
+			0,
+			1
+		],
+		"min_engine_version": [
+			1,
+			16,
+			100
+		]
+	},
+	"modules": [
+		{
+			"description": "Copper from the Java Edition 20w45a snapshot, ported to Bedrock Edition by cda94581, WIP",
+			"type": "data",
+			"uuid": "40e169a9-5239-494a-9c80-4982e44f7879",
+			"version": [
+				0,
+				0,
+				1
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "d0b84c70-8eda-464c-9083-3d91eb86ea27",
+			"version": [
+				0,
+				0,
+				1
+			]
+		}
+	]
+}

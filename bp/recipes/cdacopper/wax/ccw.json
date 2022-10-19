@@ -1,0 +1,22 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "cdacopper:ccw"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"ingredients": [
+			{
+				"item": "cdacopper:cc"
+			},
+			{
+				"item": "minecraft:honeycomb"
+			}
+		],
+		"result": {
+			"item": "cdacopper:ccw"
+		}
+	}
+}

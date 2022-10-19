@@ -1,0 +1,9 @@
+{
+	"resource_pack_name": "cdacopper",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"cdacopper_ci": {
+			"textures": "textures/items/cdacopper/ci"
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cdacopper:ccw_cw"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "cdacopper:cw"
+			}
+		},
+		"result": {
+			"item": "cdacopper:ccw",
+			"count": 4
+		}
+	}
+}

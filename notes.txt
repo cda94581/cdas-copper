@@ -1,0 +1,17 @@
+IDs/PNGs explained:
+ci - Copper Ingot
+cb - Copper Block
+cc - Cut Copper
+co - Copper Ore
+lwcb - Lightly Weathered Copper Block
+lwcc - Lightly Weathered Cut Copper
+swcb - Semi-Weathered Copper Block
+swcc - Semi-Weathered Cut Copper
+wcb - Weathered Copper Block
+wcc - Weathered Cut Copper
+("w" after id - Waxed)
+("sl" after id - Slab)
+("st" after id - Stair)
+("w" will be found before "sl" or "st")
+("d" before id - Double)
+(If is a waxed regular block, there is no "b")

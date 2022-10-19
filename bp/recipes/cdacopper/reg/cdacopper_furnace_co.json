@@ -1,0 +1,14 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "cdacopper:furnace_co"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "cdacopper:co",
+		"output": "cdacopper:ci"
+	}
+}

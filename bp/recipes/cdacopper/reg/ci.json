@@ -1,0 +1,23 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "cdacopper:ci"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "cdacopper:cb"
+			}
+		},
+		"result": {
+			"item": "cdacopper:ci",
+			"count": 9
+		}
+	}
+}

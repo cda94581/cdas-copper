@@ -1,0 +1,94 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"cdacopper:cb": {
+		"textures": "cdacopper_cb"
+	},
+	"cdacopper:cc": {
+		"textures": "cdacopper_cc"
+	},
+	"cdacopper:co": {
+		"textures": "cdacopper_co"
+	},
+	"cdacopper:lwcb": {
+		"textures": "cdacopper_lwcb"
+	},
+	"cdacopper:lwcc": {
+		"textures": "cdacopper_lwcc"
+	},
+	"cdacopper:swcb": {
+		"textures": "cdacopper_swcb"
+	},
+	"cdacopper:swcc": {
+		"textures": "cdacopper_swcc"
+	},
+	"cdacopper:wcb": {
+		"textures": "cdacopper_wcb"
+	},
+	"cdacopper:wcc": {
+		"textures": "cdacopper_wcc"
+	},
+	"cdacopper:cw": {
+		"textures": "cdacopper_cb"
+	},
+	"cdacopper:ccw": {
+		"textures": "cdacopper_cc"
+	},
+	"cdacopper:lwcw": {
+		"textures": "cdacopper_lwcb"
+	},
+	"cdacopper:lwccw": {
+		"textures": "cdacopper_lwcc"
+	},
+	"cdacopper:swcw": {
+		"textures": "cdacopper_swcb"
+	},
+	"cdacopper:swccw": {
+		"textures": "cdacopper_swcc"
+	},
+	"cdacopper:ccsl": {
+		"textures": "cdacopper_cc"
+	},
+	"cdacopper:lwccsl": {
+		"textures": "cdacopper_lwcc"
+	},
+	"cdacopper:swccsl": {
+		"textures": "cdacopper_swcc"
+	},
+	"cdacopper:wccsl": {
+		"textures": "cdacopper_wcc"
+	},
+	"cdacopper:ccwsl": {
+		"textures": "cdacopper_cc"
+	},
+	"cdacopper:lwccwsl": {
+		"textures": "cdacopper_lwcc"
+	},
+	"cdacopper:swccwsl": {
+		"textures": "cdacopper_swcc"
+	},
+	"cdacopper:ccst": {
+		"textures": "cdacopper_cc"
+	},
+	"cdacopper:lwccst": {
+		"textures": "cdacopper_lwcc"
+	},
+	"cdacopper:swccst": {
+		"textures": "cdacopper_swcc"
+	},
+	"cdacopper:wccst": {
+		"textures": "cdacopper_wcc"
+	},
+	"cdacopper:ccwst": {
+		"textures": "cdacopper_cc"
+	},
+	"cdacopper:lwccwst": {
+		"textures": "cdacopper_lwcc"
+	},
+	"cdacopper:swccwst": {
+		"textures": "cdacopper_swcc"
+	}
+}

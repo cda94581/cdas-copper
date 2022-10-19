@@ -1,0 +1,35 @@
+{
+	"resource_pack_name": "cdacopper",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"cdacopper_cb": {
+			"textures": "textures/blocks/cdacopper/cb"
+		},
+		"cdacopper_cc": {
+			"textures": "textures/blocks/cdacopper/cc"
+		},
+		"cdacopper_co": {
+			"textures": "textures/blocks/cdacopper/co"
+		},
+		"cdacopper_lwcb": {
+			"textures": "textures/blocks/cdacopper/lwcb"
+		},
+		"cdacopper_lwcc": {
+			"textures": "textures/blocks/cdacopper/lwcc"
+		},
+		"cdacopper_swcb": {
+			"textures": "textures/blocks/cdacopper/swcb"
+		},
+		"cdacopper_swcc": {
+			"textures": "textures/blocks/cdacopper/swcc"
+		},
+		"cdacopper_wcb": {
+			"textures": "textures/blocks/cdacopper/wcb"
+		},
+		"cdacopper_wcc": {
+			"textures": "textures/blocks/cdacopper/wcc"
+		}
+	}
+}

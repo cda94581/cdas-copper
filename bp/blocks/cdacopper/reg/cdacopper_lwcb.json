@@ -1,0 +1,34 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "cdacopper:lwcb",
+			"category": "construction"
+		},
+		"components": {
+			"minecraft:destroy_time": 1.0,
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:on_player_destroyed": {
+				"condition": "query.get_equipped_item_name == 'stone_pickaxe' || query.get_equipped_item_name == 'iron_pickaxe' || query.get_equipped_item_name == 'diamond_pickaxe' || query.get_equipped_item_name == 'netherite_pickaxe'",
+				"event": "drop"
+			},
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "weather"
+				}
+			}
+		},
+		"events": {
+			"drop": {
+				"spawn_loot": {
+					"table": "loot_tables/blocks/cdacopper/reg/lwcb.json"
+				}
+			},
+			"weather": {
+				"set_block": {
+					"block_type": "cdacopper:swcb"
+				}
+			}
+		}
+	}
+}

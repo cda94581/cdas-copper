@@ -1,0 +1,1 @@
+Go read the README.TXT file in the behavior pack folder
