@@ -1,4 +1,4 @@
-item.cdacopper:ci.name=Copper Ingot
+item.cdacopper:ci=Copper Ingot
 
 tile.cdacopper:cb.name=Copper Block
 tile.cdacopper:cc.name=Cut Copper
